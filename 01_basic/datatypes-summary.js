@@ -33,3 +33,19 @@ const myFunction = function() {
 }
 
 console.log(typeof myFunction);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let usertwo = userOne
+
+usertwo.email = "nitin@gmail.com"
+
+console.log(userOne);
+console.log(usertwo);
+
+
+
+// Stack (primitive) , heap (non-primitive)
